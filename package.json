@@ -1,0 +1,22 @@
+{
+  "name": "playwright-mcp-agent-showcase",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "test": "npx bddgen && npx playwright test --grep"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.0.0",
+    "@faker-js/faker": "^10.5.0",
+    "@playwright/test": "^1.61.1",
+    "dotenv": "^17.4.2",
+    "faker": "^5.5.3",
+    "playwright-bdd": "^9.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.0"
+  },
+  "dependencies": {
+    "cucumber": "^6.0.7"
+  }
+}

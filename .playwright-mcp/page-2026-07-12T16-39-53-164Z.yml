@@ -1,0 +1,85 @@
+- generic [ref=f1e12]:
+  - separator [ref=f1e20]
+  - generic [ref=f1e31]:
+    - generic [ref=f1e32]: Iniciar sesión en Facebook
+    - generic [ref=f1e43]:
+      - textbox "Correo electrónico o número de celular" [ref=f1e48]
+      - textbox "Contraseña" [ref=f1e53]
+      - button "Inicia sesión" [ref=f1e57] [cursor=pointer]:
+        - generic [ref=f1e58]: Iniciar sesión
+      - link "¿Olvidaste tu contraseña?" [ref=f1e64] [cursor=pointer]:
+        - /url: /recover/initiate/?privacy_mutation_token=eyJ0eXBlIjo1LCJjcmVhdGlvbl90aW1lIjoxNzgzODc0Mzk0fQ%3D%3D&ars=facebook_login
+      - link "Crear una cuenta nueva" [ref=f1e70] [cursor=pointer]:
+        - /url: /reg/?entry_point=login&next=
+      - img "Logotipo de Meta" [ref=f1e75]
+  - separator [ref=f1e83]
+  - main [ref=f1e89]:
+    - separator [ref=f1e91]
+    - generic [ref=f1e96]:
+      - generic [ref=f1e98]:
+        - link "English (US)" [ref=f1e101] [cursor=pointer]:
+          - /url: "#"
+        - link "Español" [ref=f1e104] [cursor=pointer]:
+          - /url: "#"
+        - link "Français (France)" [ref=f1e107] [cursor=pointer]:
+          - /url: "#"
+        - link "Português (Brasil)" [ref=f1e110] [cursor=pointer]:
+          - /url: "#"
+        - link "Italiano" [ref=f1e113] [cursor=pointer]:
+          - /url: "#"
+        - link "Deutsch" [ref=f1e116] [cursor=pointer]:
+          - /url: "#"
+        - link "العربية" [ref=f1e119] [cursor=pointer]:
+          - /url: "#"
+        - link "Más idiomas…" [ref=f1e122] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=f1e125]:
+        - link "Registrarse" [ref=f1e128] [cursor=pointer]:
+          - /url: https://www.facebook.com/reg/
+        - link "Inicia sesión" [ref=f1e131] [cursor=pointer]:
+          - /url: https://www.facebook.com/login/
+        - link "Messenger" [ref=f1e134] [cursor=pointer]:
+          - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmessenger.com%2F&h=AUC6QVwjop5oJlyUw-UJ5nOYoj6EUCsib8_VwW0LeiGaTCgotoZVTYDAQblG_119GkY67fjyhCdwefIOKyr8w9VPnVYUExINlXa-B2TKZYKMB5Q6ggdKc6-FXDSOFha9DIZp5_mjytn_enQ8ELQ69A
+        - link "Facebook Lite" [ref=f1e137] [cursor=pointer]:
+          - /url: https://www.facebook.com/lite/
+        - link "Video" [ref=f1e140] [cursor=pointer]:
+          - /url: https://www.facebook.com/watch/
+        - link "Meta Pay" [ref=f1e143] [cursor=pointer]:
+          - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fabout.meta.com%2Ftechnologies%2Fmeta-pay&h=AUC6QVwjop5oJlyUw-UJ5nOYoj6EUCsib8_VwW0LeiGaTCgotoZVTYDAQblG_119GkY67fjyhCdwefIOKyr8w9VPnVYUExINlXa-B2TKZYKMB5Q6ggdKc6-FXDSOFha9DIZp5_mjytn_enQ8ELQ69A
+        - link "Tienda de Meta" [ref=f1e146] [cursor=pointer]:
+          - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.meta.com%2F&h=AUC6QVwjop5oJlyUw-UJ5nOYoj6EUCsib8_VwW0LeiGaTCgotoZVTYDAQblG_119GkY67fjyhCdwefIOKyr8w9VPnVYUExINlXa-B2TKZYKMB5Q6ggdKc6-FXDSOFha9DIZp5_mjytn_enQ8ELQ69A
+        - link "Meta Quest" [ref=f1e149] [cursor=pointer]:
+          - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.meta.com%2Fquest%2F&h=AUC6QVwjop5oJlyUw-UJ5nOYoj6EUCsib8_VwW0LeiGaTCgotoZVTYDAQblG_119GkY67fjyhCdwefIOKyr8w9VPnVYUExINlXa-B2TKZYKMB5Q6ggdKc6-FXDSOFha9DIZp5_mjytn_enQ8ELQ69A
+        - link "Ray-Ban Meta" [ref=f1e152] [cursor=pointer]:
+          - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.meta.com%2Fai-glasses%2Fray-ban-meta%2F&h=AUC6QVwjop5oJlyUw-UJ5nOYoj6EUCsib8_VwW0LeiGaTCgotoZVTYDAQblG_119GkY67fjyhCdwefIOKyr8w9VPnVYUExINlXa-B2TKZYKMB5Q6ggdKc6-FXDSOFha9DIZp5_mjytn_enQ8ELQ69A
+        - link "Meta AI" [ref=f1e155] [cursor=pointer]:
+          - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.meta.ai%2F&h=AUC6QVwjop5oJlyUw-UJ5nOYoj6EUCsib8_VwW0LeiGaTCgotoZVTYDAQblG_119GkY67fjyhCdwefIOKyr8w9VPnVYUExINlXa-B2TKZYKMB5Q6ggdKc6-FXDSOFha9DIZp5_mjytn_enQ8ELQ69A
+        - link "Instagram" [ref=f1e158] [cursor=pointer]:
+          - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F&h=AUC6QVwjop5oJlyUw-UJ5nOYoj6EUCsib8_VwW0LeiGaTCgotoZVTYDAQblG_119GkY67fjyhCdwefIOKyr8w9VPnVYUExINlXa-B2TKZYKMB5Q6ggdKc6-FXDSOFha9DIZp5_mjytn_enQ8ELQ69A
+        - link "Threads" [ref=f1e161] [cursor=pointer]:
+          - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.threads.com%2F&h=AUC6QVwjop5oJlyUw-UJ5nOYoj6EUCsib8_VwW0LeiGaTCgotoZVTYDAQblG_119GkY67fjyhCdwefIOKyr8w9VPnVYUExINlXa-B2TKZYKMB5Q6ggdKc6-FXDSOFha9DIZp5_mjytn_enQ8ELQ69A
+        - link "Política de privacidad" [ref=f1e164] [cursor=pointer]:
+          - /url: https://www.facebook.com/privacy/policy/?entry_point=facebook_page_footer
+        - link "Centro de privacidad" [ref=f1e167] [cursor=pointer]:
+          - /url: https://www.facebook.com/privacy/center/?entry_point=facebook_page_footer
+        - link "Información" [ref=f1e170] [cursor=pointer]:
+          - /url: https://www.facebook.com/about/
+        - link "Crear anuncio" [ref=f1e173] [cursor=pointer]:
+          - /url: https://www.facebook.com/ad_campaign/landing.php?placement=pflo&campaign_id=402047449186&nav_source=unknown&extra_1=auto
+        - link "Crear Página" [ref=f1e176] [cursor=pointer]:
+          - /url: https://www.facebook.com/pages/create/?ref_type=site_footer
+        - link "Desarrolladores" [ref=f1e179] [cursor=pointer]:
+          - /url: https://developers.facebook.com/?ref=pf
+        - link "Carreras" [ref=f1e182] [cursor=pointer]:
+          - /url: https://www.facebook.com/careers/?ref=pf
+        - link "Cookies" [ref=f1e185] [cursor=pointer]:
+          - /url: https://www.facebook.com/policies/cookies/
+        - link "Opciones de anuncios" [ref=f1e188] [cursor=pointer]:
+          - /url: https://www.facebook.com/help/568137493302217
+        - link "Condiciones" [ref=f1e191] [cursor=pointer]:
+          - /url: https://www.facebook.com/policies?ref=pf
+        - link "Ayuda" [ref=f1e194] [cursor=pointer]:
+          - /url: https://www.facebook.com/help/?ref=pf
+        - link "Importación de contactos y no usuarios" [ref=f1e197] [cursor=pointer]:
+          - /url: https://www.facebook.com/help/637205020878504
+      - generic [ref=f1e198]: Meta © 2026
