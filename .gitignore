@@ -18,6 +18,7 @@ cucumber-report/
 
 # Playwright MCP
 .playwirhght-mcp/
+.yml
 
 # Logs
 npm-debug.log*
