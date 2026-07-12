@@ -15,18 +15,18 @@ El flujo principal automatizado consiste en navegar a Facebook e interactuar con
 **⚙️ Configuración del Entorno (.env)**
 Antes de ejecutar las pruebas, es obligatorio crear un archivo .env en la raíz del proyecto. Este archivo debe contener las siguientes variables de entorno:
 
-WORKERS=1
-RETRIES=0
-COUNTRY=CO
+* WORKERS=1
+* RETRIES=0
+* COUNTRY=CO
 
 **📋 Descripción de las variables:**
 WORKERS: Define la cantidad de hilos o procesos en paralelo que se van a levantar para la ejecución.
 RETRIES: La cantidad de intentos (re-intentos) que realizará el framework si un test llega a fallar.
 COUNTRY: Especifica el país de ejecución. Para este proyecto base, solo se admiten tres configuraciones posibles:
 
-CO (Colombia)
-MX (México)
-CL (Chile)
+* CO (Colombia)
+* MX (México)
+* CL (Chile)
 
 **🚀 Ejecución de Pruebas**
 Para ejecutar el proyecto base levantando la interfaz gráfica del navegador y apuntando al tag/ejemplo específico, utiliza el siguiente comando, es importante revisar el archivo.feature para validar la tag que se va a ejecutar:
