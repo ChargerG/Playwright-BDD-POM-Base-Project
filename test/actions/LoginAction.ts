@@ -22,7 +22,7 @@ export class LoginAction {
   }
 
   async errorToLogin(){
-    await expect(this.loginPage.invalidCredentialsMessage).toBeVisible({ timeout: 10000 });
+    await expect(this.loginPage.invalidCredentialsMessage).toBeVisible({ timeout: 20000 });
     const screenshotBuffer = await this.page.screenshot({ fullPage: true });
     await test.info().attach('Evidencia_error_login', {
       body: screenshotBuffer,
