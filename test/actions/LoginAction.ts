@@ -1,5 +1,4 @@
 import { expect, Page, test } from '@playwright/test';
-import { faker } from '@faker-js/faker/locale/es';
 import { LoginPage } from '../pages/LoginPage';
 
 export class LoginAction {
@@ -16,6 +15,7 @@ export class LoginAction {
   }
 
   async submitLogin() {
+    const { faker } = await import('@faker-js/faker');
     await this.loginPage.emailInput.fill(faker.internet.email());
     await this.loginPage.passwordInput.fill(faker.internet.password());
     await this.loginPage.loginButton.click();
