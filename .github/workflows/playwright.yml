@@ -26,9 +26,9 @@ on:
         default: '1'
       # NUEVO: Input para que puedas cambiar el Tag/Etiqueta desde GitHub si quieres
       tag:
-        description: 'Tag del escenario a ejecutar (ej. @RCA-11111)'
+        description: 'Tag del escenario a ejecutar (ej. @RCA-T11111)'
         required: true
-        default: '@RCA-11111'
+        default: '@RCA-T11111'
 
 jobs:
   test:
@@ -59,7 +59,7 @@ jobs:
 
     # MODIFICADO: Ahora pasamos el parámetro del tag dinámicamente usando el doble guion (--)
     - name: Run Playwright BDD tests
-      run: npm test -- ${{ github.event.inputs.tag || '@RCA-11111' }}
+      run: npm test -- ${{ github.event.inputs.tag || '@RCA-T11111' }}
 
     - name: Upload Playwright Report
       uses: actions/upload-artifact@v4
