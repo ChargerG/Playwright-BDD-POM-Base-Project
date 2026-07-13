@@ -2,6 +2,7 @@
   "name": "playwright-mcp-agent-showcase",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "test": "npx bddgen && npx playwright test --grep"
   },
