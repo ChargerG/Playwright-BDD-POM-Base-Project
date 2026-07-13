@@ -1,5 +1,5 @@
 import { expect, Page, test } from '@playwright/test';
-import { faker } from '@faker-js/faker';
+import { faker } from '@faker-js/faker/locale/es';
 import { LoginPage } from '../pages/LoginPage';
 
 export class LoginAction {
