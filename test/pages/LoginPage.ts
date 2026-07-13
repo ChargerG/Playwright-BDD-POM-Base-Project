@@ -21,6 +21,6 @@ export class LoginPage {
 
   get invalidCredentialsMessage() {
     return this.page.getByText('El correo electrónico o nú')
-      .first();
+      .first().or(this.page.getByText('La información de inicio de sesión que ingresaste es incorrecta').first());
   }
 }
